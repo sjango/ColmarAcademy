@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"mo",
+				"mobile"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"info",
+				"info-text"
+			],
+			[
+				"in",
+				"information"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
 				"bac",
 				"background-position"
 			],
@@ -38,10 +58,6 @@
 			[
 				"mar",
 				"margin-left"
-			],
-			[
-				"di",
-				"display"
 			],
 			[
 				"margi",
@@ -82,10 +98,6 @@
 			[
 				"co",
 				"container"
-			],
-			[
-				"h",
-				"h3\tTag"
 			],
 			[
 				"l",
@@ -158,10 +170,6 @@
 			[
 				"im",
 				"images"
-			],
-			[
-				"in",
-				"inline"
 			],
 			[
 				"bl",
@@ -287,16 +295,8 @@
 			"file": "/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy/index.html",
 			"settings":
 			{
-				"buffer_size": 78,
+				"buffer_size": 2594,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy/resources/css/style.css",
-			"settings":
-			{
-				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -335,7 +335,8 @@
 	[
 		"/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy",
 		"/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy/resources",
-		"/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy/resources/css"
+		"/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy/resources/css",
+		"/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy/resources/images"
 	],
 	"file_history":
 	[
@@ -426,15 +427,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 78,
+						"buffer_size": 2594,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								2569,
+								2569
 							]
 						],
 						"settings":
@@ -442,38 +443,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 623.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy/resources/css/style.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
