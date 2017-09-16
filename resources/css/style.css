@@ -7,6 +7,16 @@ html {
 	display: none;
 }
 
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
 /* header */
 header {
 	display: flex;
@@ -80,10 +90,11 @@ header li {
 
 #banner h1 {
 	font-size: 3rem;
+	margin-bottom: 2rem;
 }
 
 #banner h3 {
-	font-size: 1.2rem;
+	font-weight: normal;
 }
 
 #banner span {
@@ -108,7 +119,6 @@ header li {
 }
 
 #information h2 {
-	font-size: 2rem;
 	margin: 2rem 0 1.5rem 0;
 }
 
@@ -145,7 +155,6 @@ header li {
 }
 
 .info h3 {
-	font-size: 1.3rem;
 	font-weight: bold;
 margin-bottom: 0.5rem;
 }
@@ -158,3 +167,53 @@ margin-bottom: 0.5rem;
 	color: rgb(49,123,219);
 }
 
+/* courses */
+
+#courses {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#courses h2 {
+	margin-top: 2rem;
+}
+
+.courses-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2rem 4.5rem;
+	justify-content: center; 
+}
+
+.course {
+	width: calc(33.3333% - 1.3333rem);
+	margin-bottom: 2rem;
+	background-color: white;
+}
+
+.course img {
+	width: 100%;
+	height: auto;
+}
+
+.course:nth-child(3n + 1) {
+	margin-right: 2rem;
+}
+
+.course:nth-child(3n + 0) {
+	margin-left: 2rem;
+}
+
+.course h3 {
+	margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.course h4 {
+	margin: 0 1rem;
+	text-transform: uppercase;
+}
+
+.course p {
+	margin:0.5rem 1rem 1.5rem 1rem;
+}
