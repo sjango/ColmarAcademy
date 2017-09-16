@@ -97,17 +97,37 @@ header li {
 
 /* information-section */
 
+
+#information .right-container {
+	padding: 1rem 0 2rem 0;
+	width: 40%;
+}
+
+#information .left-container {
+	position: relative;	
+}
+
 #information h2 {
 	font-size: 2rem;
 	margin: 2rem 0 1.5rem 0;
+}
+
+.quote-person {
+	position: absolute;
+	bottom: 2rem;
 }
 
 .information {
 	display: flex;
 }
 
+.information:last-child {
+	background-color: rgb(207, 207, 207);
+}
+
 .information .img-container {
 	width: 35%;
+	padding: 1rem;
 }
 
 .info {
@@ -115,10 +135,26 @@ header li {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding-right: 1.5rem;
 }
+
 
 .information .img-container img {
 	max-width: 100%;
 	height: auto;
+}
+
+.info h3 {
+	font-size: 1.3rem;
+	font-weight: bold;
+margin-bottom: 0.5rem;
+}
+
+.info p {
+	margin-bottom: 0.5rem;
+}
+
+.info a {
+	color: rgb(49,123,219);
 }
 
