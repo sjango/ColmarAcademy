@@ -1,5 +1,7 @@
 html {
 	font-size: 16px;
+	font-family: 'Libre Franklin';
+	color: rgb(57,57,57);	
 }
 
 /* remove mobile elements */
@@ -15,8 +17,15 @@ h2 {
 }
 
 h3 {
-	font-size: 1.2rem;
-	font-weight: bold;
+	color: rgb(52,52,52);
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1.15rem;
+	font-weight: 300;
+	line-height: 1.5;
 }
 
 /* header */
@@ -43,12 +52,22 @@ header .logo {
 	font-size: 1.5rem;
 }
 
+.name span:first-child {
+	font-weight: 700;
+}
+
+.name span:last-child {
+	font-weight: 300;
+	color: rgb(153,153,153);
+}
+
 header ul {
 	display: flex;
 }
 
 header li {
 	font-size: 1.2rem;
+	font-weight: 300;
 	border-right: 1rem solid rgb(131, 218, 216);
 	padding: 1.4rem 0;
 }
@@ -104,9 +123,16 @@ header li {
 	height: auto;
 }
 
-.right-item:nth-child(2n +1) {
+.right-item:nth-child(2n + 1) {
 	background-color: rgb(207, 207, 207);
 }
+
+.right-item:nth-child(2n + 2) {
+	border-bottom: 1px solid rgb(207, 207, 207);
+	border-top: 1px solid rgb(207, 207, 207);
+	border-left:  1px solid rgb(207, 207, 207);
+}
+
 
 .right-item-content {
 	width: 65%;
@@ -117,11 +143,11 @@ header li {
 }
 
 .right-item-content h3 {
-	font-weight: bold;
 margin-bottom: 0.5rem;
 }
 
 .right-item-content p {
+	font-weight: 300;
 	margin-bottom: 0.5rem;
 }
 
@@ -139,11 +165,13 @@ margin-bottom: 0.5rem;
 
 #banner h1 {
 	font-size: 3rem;
-	margin-bottom: 2rem;
+	font-weight: 800;
+	line-height: 1.3;
+	margin-bottom: 1.5rem;
 }
 
 #banner h3 {
-	font-weight: normal;
+	line-height: 1.5;
 }
 
 #banner span {
@@ -165,9 +193,11 @@ margin-bottom: 0.5rem;
 	margin: 2rem 0 1.5rem 0;
 }
 
+
 .quote-person {
-	position: absolute;
-	bottom: 2rem;
+	margin-top:2rem;
+	margin-bottom: 2rem;
+	font-size: 1rem;
 }
 
 
@@ -222,6 +252,8 @@ margin-bottom: 0.5rem;
 .course h4 {
 	margin: 0 1rem;
 	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 300;
 }
 
 .course p {
@@ -260,12 +292,15 @@ margin-bottom: 0.5rem;
 	margin-bottom: 2rem;
 }
 
-
 /* footer */
 
 footer {
 	display: flex;
 	justify-content: space-between;
 	padding:1rem 1.5rem;
+	font-size: 0.8rem;
 }
 
+.terms span:first-child {
+	margin-right: 1rem;
+}
