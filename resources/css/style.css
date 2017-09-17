@@ -4,12 +4,18 @@ html {
 	color: rgb(57,57,57);	
 }
 
-/* remove mobile elements */
+/* disabling responsive elements */
 .mobile {
 	display: none;
 }
 
+
 /* common elements styling */
+
+h1 {
+	font-size: 3rem;
+	font-weight: 800;
+}
 
 h2 {
 	font-size: 2rem;
@@ -27,6 +33,14 @@ p {
 	font-weight: 300;
 	line-height: 1.5;
 }
+
+@media only screen and (max-width: 689px) {
+	h1 {
+		font-size: 2rem;
+	}
+
+}
+
 
 /* header */
 header {
@@ -75,11 +89,28 @@ header li {
  	border-right: 0px;
  }
 
- /* main content */
+ @media only screen and (max-width: 689px) {
+	header .mobile {
+		display: inline;
+	}
 
-.content {
-	border-bottom: 1px solid rgb(207, 207, 207);
-}
+	header .logo {
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.name {
+		display: none;
+	}
+
+	header nav {
+		display: none;
+	}
+
+
+}	
+
+ /* page content */
 
  /* content containers */
 
@@ -107,7 +138,7 @@ header li {
  	width: 100%;
  }
 
-/* content items */
+/* container items */
 
 .right-item {
 	display: flex;
@@ -139,7 +170,7 @@ header li {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-right: 1.5rem;
+	padding: 1rem 1.5rem 1rem 0;
 }
 
 .right-item-content h3 {
@@ -155,6 +186,24 @@ margin-bottom: 0.5rem;
 	color: rgb(49,123,219);
 }
 
+@media only screen and (max-width: 689px) {
+	.container:nth-child(odd) {
+	 	background-color: white;
+}
+ 	.container:first-child {
+ 		background-color: rgb(207, 207, 207);
+ 	}
+
+ 	.right-item:nth-child(2n + 1) {
+	 	background-color: white;
+}
+
+	.right-item:nth-child(2n + 2) {
+		border: 0;
+}
+
+}
+
 /* banner */
 
 #banner .right-container {
@@ -164,8 +213,6 @@ margin-bottom: 0.5rem;
 }
 
 #banner h1 {
-	font-size: 3rem;
-	font-weight: 800;
 	line-height: 1.3;
 	margin-bottom: 1.5rem;
 }
@@ -183,6 +230,22 @@ margin-bottom: 0.5rem;
 	margin-top: 1.5rem;
 }
 
+@media only screen and (max-width: 689px) {
+	#banner {
+		flex-direction: column;
+	}
+
+	#banner .left-container {
+		width: 100%;
+		padding: 0;
+	}
+
+	#banner .right-container {
+		width: calc(100% - 2rem);
+		padding: 2rem 1rem;
+	}
+}
+
 /* information-section */
 
 #information .left-container {
@@ -194,18 +257,59 @@ margin-bottom: 0.5rem;
 }
 
 
-.quote-person {
+.quotee {
 	margin-top:2rem;
 	margin-bottom: 2rem;
 	font-size: 1rem;
 }
 
+@media only screen and (max-width: 689px){
+	#information .left-container {
+		display: none;
+	}
 
-#information .right-item:last-child {
-	background-color: rgb(207, 207, 207);
+	#information .right-container {
+		width: calc(100% - 2rem);
+		padding:1rem;
+	}
+
+	#information .right-item {
+		flex-direction: column;
+	}
+
+	#information img {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#information .desktop {
+		display: none;
+	}
+
+	#information .mobile {
+		display: block;
+	}
+
+	#information .img-wrapper-small {
+		width: 100%;
+		padding: 0;
+	}
+
+	#information .right-item-content {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	#information h3,
+
+	#information p {
+		width: 576px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 1rem;
+	}
+
 }
-
-
 
 /* courses */
 
@@ -260,6 +364,43 @@ margin-bottom: 0.5rem;
 	margin:0.5rem 1rem 1.5rem 1rem;
 }
 
+@media only screen and (max-width: 689px) {
+	#courses {
+		border-top: 1px solid rgb(207, 207, 207);
+	}
+
+	.courses-container {
+		flex-direction: column;
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.course {
+		margin:0;
+		width: 100%;
+	}
+
+	.course:nth-child(3n + 1) {
+		margin-right: 0;
+	}
+	.course:nth-child(3n + 0) {
+		margin-left: 0;
+	}
+
+	#courses img,
+	#courses h4,
+	#courses p {
+		display: none;
+	}
+
+	#courses h3 {
+		padding: 1.5rem 1rem;
+		background-color: rgb(207, 207, 207);
+	}
+
+
+}
+
 /*thesis exhibit */
 
 #thesis {
@@ -292,6 +433,24 @@ margin-bottom: 0.5rem;
 	margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 689px) {
+	#thesis {
+	border-top: 1px solid rgb(207, 207, 207);
+	}
+
+	#thesis .right-container,
+
+	#thesis h3,
+
+	#thesis p {
+		display: none;
+	}
+
+	#thesis .left-container {
+		width: 100%;
+	}
+}
+
 /* footer */
 
 footer {
@@ -299,8 +458,15 @@ footer {
 	justify-content: space-between;
 	padding:1rem 1.5rem;
 	font-size: 0.8rem;
+	border-top: 1px solid rgb(207, 207, 207);
 }
 
 .terms span:first-child {
 	margin-right: 1rem;
+}
+
+@media only screen and (max-width: 689px) {
+	.terms {
+		display: none;
+	}
 }
