@@ -7,6 +7,8 @@ html {
 	display: none;
 }
 
+/* common elements styling */
+
 h2 {
 	font-size: 2rem;
 	font-weight: bold;
@@ -56,7 +58,13 @@ header li {
 
  /* main content */
 
- .container {
+.content {
+	border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+ /* content containers */
+
+  .container {
  	display: flex;
  }
 
@@ -66,10 +74,10 @@ header li {
  }
 
 .right-container {
-	width: calc(40% - 1.5rem);
+	width: 40%;
 	display: flex;
-	flex-direction: column;
-	padding: 2rem 1.5rem 2rem 0;
+	flex-direction: column;		
+	padding: 2rem 0 2rem 0;
 }
 
  .container:nth-child(odd) {
@@ -78,14 +86,55 @@ header li {
 
  .left-container img {
  	width: 100%;
-
  }
+
+/* content items */
+
+.right-item {
+	display: flex;
+}
+
+ .img-wrapper-small {
+	width: 35%;
+	padding: 1rem;
+}
+
+.right-item img {
+	max-width: 100%;
+	height: auto;
+}
+
+.right-item:nth-child(2n +1) {
+	background-color: rgb(207, 207, 207);
+}
+
+.right-item-content {
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: 1.5rem;
+}
+
+.right-item-content h3 {
+	font-weight: bold;
+margin-bottom: 0.5rem;
+}
+
+.right-item-content p {
+	margin-bottom: 0.5rem;
+}
+
+.right-item-content a {
+	color: rgb(49,123,219);
+}
 
 /* banner */
 
 #banner .right-container {
 	width: 30%;
 	justify-content: center;
+	margin-right: 1.5rem;
 }
 
 #banner h1 {
@@ -108,12 +157,6 @@ header li {
 
 /* information-section */
 
-
-#information .right-container {
-	padding: 1rem 0 2rem 0;
-	width: 40%;
-}
-
 #information .left-container {
 	position: relative;	
 }
@@ -127,45 +170,12 @@ header li {
 	bottom: 2rem;
 }
 
-.information {
-	display: flex;
-}
 
-.information:last-child {
+#information .right-item:last-child {
 	background-color: rgb(207, 207, 207);
 }
 
-.information .img-container {
-	width: 35%;
-	padding: 1rem;
-}
 
-.info {
-	width: 65%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-right: 1.5rem;
-}
-
-
-.information .img-container img {
-	max-width: 100%;
-	height: auto;
-}
-
-.info h3 {
-	font-weight: bold;
-margin-bottom: 0.5rem;
-}
-
-.info p {
-	margin-bottom: 0.5rem;
-}
-
-.info a {
-	color: rgb(49,123,219);
-}
 
 /* courses */
 
@@ -217,3 +227,45 @@ margin-bottom: 0.5rem;
 .course p {
 	margin:0.5rem 1rem 1.5rem 1rem;
 }
+
+/*thesis exhibit */
+
+#thesis {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#thesis h2 {
+	margin-top: 2rem;
+}
+
+.thesis-container {
+	display: flex;
+}
+
+#thesis video {
+    width: 100%; 
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#thesis .left-container h3 {
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+#thesis .left-container p {
+	margin-bottom: 2rem;
+}
+
+
+/* footer */
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding:1rem 1.5rem;
+}
+
