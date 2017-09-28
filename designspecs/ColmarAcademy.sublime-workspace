@@ -4,16 +4,112 @@
 		"selected_items":
 		[
 			[
-				"d",
-				"display"
+				"border",
+				"border"
 			],
 			[
-				"di",
-				"div\tTag"
+				"margin",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"bo",
+				"border"
 			],
 			[
 				"padd",
 				"padding"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"r",
+				"right-item-content"
+			],
+			[
+				"ri",
+				"right-item-content"
+			],
+			[
+				"img",
+				"img-wrapper-small"
+			],
+			[
+				"right",
+				"right-item"
+			],
+			[
+				"f",
+				"flex-direction"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"flex",
+				"flex-flow"
 			],
 			[
 				"bac",
@@ -24,24 +120,12 @@
 				"border-right"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
-				"border",
-				"border-left"
-			],
-			[
 				"ali",
 				"align-items"
 			],
 			[
 				"al",
 				"align-items"
-			],
-			[
-				"r",
-				"right-container"
 			],
 			[
 				"h",
@@ -60,24 +144,8 @@
 				"info-text"
 			],
 			[
-				"in",
-				"information"
-			],
-			[
-				"marg",
-				"margin"
-			],
-			[
 				"pad",
 				"padding"
-			],
-			[
-				"padding",
-				"padding-bottom"
-			],
-			[
-				"margin",
-				"margin-left"
 			],
 			[
 				"back",
@@ -88,24 +156,8 @@
 				"flex-start"
 			],
 			[
-				"mar",
-				"margin-left"
-			],
-			[
-				"margi",
-				"margin-top"
-			],
-			[
 				"u",
 				"ul\tTag"
-			],
-			[
-				"f",
-				"flex-start"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"sp",
@@ -116,10 +168,6 @@
 				"background-color"
 			],
 			[
-				"pa",
-				"padding"
-			],
-			[
 				"co",
 				"container"
 			],
@@ -128,20 +176,12 @@
 				"li\tTag"
 			],
 			[
-				"flex",
-				"flex-start"
-			],
-			[
 				"wd",
 				"width"
 			],
 			[
 				"inlin",
 				"inline"
-			],
-			[
-				"te",
-				"text-align"
 			],
 			[
 				"max",
@@ -174,10 +214,6 @@
 			[
 				"paddi",
 				"padding-top"
-			],
-			[
-				"paddin",
-				"padding"
 			],
 			[
 				"space",
@@ -230,10 +266,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"img",
-				"img-story-1"
 			],
 			[
 				"fle",
@@ -307,7 +339,7 @@
 			"file": "/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy/index.html",
 			"settings":
 			{
-				"buffer_size": 5710,
+				"buffer_size": 6120,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -316,7 +348,7 @@
 			"file": "/Volumes/Mac HD/shangho/CreativeVentures/Coding/webdevelopment/Codecademy/ColmarAcademy/resources/css/style.css",
 			"settings":
 			{
-				"buffer_size": 1540,
+				"buffer_size": 6116,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -385,13 +417,14 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 101.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -399,6 +432,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#CCE2E2",
+			"#223A39",
+			"#162625",
+			"223A39\n223A39",
+			"rgb(207, 207, 207);",
+			"rgb (207, 207, 207);",
 			";\n",
 			"span",
 			"</p>",
@@ -418,6 +457,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"#162625",
+			"#223A39",
+			"#CCE2E2",
 			"h4",
 			"</span>",
 			"<span>",
@@ -446,15 +488,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5710,
+						"buffer_size": 6120,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2627,
-								2627
+								913,
+								913
 							]
 						],
 						"settings":
@@ -463,7 +505,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 875.0,
+						"translation.y": 561.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -475,23 +517,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1540,
+						"buffer_size": 6116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								713,
-								713
+								5986,
+								5986
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1358.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

@@ -1,7 +1,7 @@
 html {
 	font-size: 16px;
 	font-family: 'Libre Franklin';
-	color: rgb(57,57,57);	
+	color: #162625;	
 }
 
 /* disabling responsive elements */
@@ -23,7 +23,6 @@ h2 {
 }
 
 h3 {
-	color: rgb(52,52,52);
 	font-size: 1.5rem;
 	font-weight: 600;
 }
@@ -72,7 +71,7 @@ header .logo {
 
 .name span:last-child {
 	font-weight: 300;
-	color: rgb(153,153,153);
+	color: #3B4949;
 }
 
 header ul {
@@ -131,7 +130,7 @@ header li {
 }
 
  .container:nth-child(odd) {
- 	background-color: rgb(207, 207, 207);
+ 	background-color: /*rgb(207, 207, 207)*/ #CCE2E2;
  }
 
  .left-container img {
@@ -155,13 +154,13 @@ header li {
 }
 
 .right-item:nth-child(2n + 1) {
-	background-color: rgb(207, 207, 207);
+	background-color: #CCE2E2;
 }
 
 .right-item:nth-child(2n + 2) {
-	border-bottom: 1px solid rgb(207, 207, 207);
-	border-top: 1px solid rgb(207, 207, 207);
-	border-left:  1px solid rgb(207, 207, 207);
+	border-bottom: 1px solid #CCE2E2;
+	border-top: 1px solid #CCE2E2;
+	border-left:  1px solid #CCE2E2;
 }
 
 
@@ -191,7 +190,7 @@ margin-bottom: 0.5rem;
 	 	background-color: white;
 }
  	.container:first-child {
- 		background-color: rgb(207, 207, 207);
+ 		background-color: #CCE2E2;
  	}
 
  	.right-item:nth-child(2n + 1) {
@@ -222,7 +221,7 @@ margin-bottom: 0.5rem;
 }
 
 #banner span {
-	background-color: rgb(57,57,57);
+	background-color: #162625;
 	font-size: 1.2rem;
 	color: white;
 	padding: 0.5rem 0;
@@ -261,6 +260,10 @@ margin-bottom: 0.5rem;
 	margin-top:2rem;
 	margin-bottom: 2rem;
 	font-size: 1rem;
+}
+
+#information a {
+	color: #4EAAA7;
 }
 
 @media only screen and (max-width: 689px){
@@ -366,7 +369,7 @@ margin-bottom: 0.5rem;
 
 @media only screen and (max-width: 689px) {
 	#courses {
-		border-top: 1px solid rgb(207, 207, 207);
+		border-top: 1px solid #CCE2E2;
 	}
 
 	.courses-container {
@@ -395,7 +398,7 @@ margin-bottom: 0.5rem;
 
 	#courses h3 {
 		padding: 1.5rem 1rem;
-		background-color: rgb(207, 207, 207);
+		background-color: #CCE2E2;
 	}
 
 
@@ -435,7 +438,7 @@ margin-bottom: 0.5rem;
 
 @media only screen and (max-width: 689px) {
 	#thesis {
-	border-top: 1px solid rgb(207, 207, 207);
+	border-top: 1px solid #CCE2E2;
 	}
 
 	#thesis .right-container,
@@ -458,7 +461,7 @@ footer {
 	justify-content: space-between;
 	padding:1rem 1.5rem;
 	font-size: 0.8rem;
-	border-top: 1px solid rgb(207, 207, 207);
+	border-top: 1px solid #CCE2E2;
 }
 
 .terms span:first-child {
